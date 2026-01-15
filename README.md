@@ -1,3 +1,9 @@
+
+## 📸 視覺預覽 / Preview
+
+![Preview](images/tongwen.webp)
+
+---
 # 🌸 Rime Trime: 86 Wubi · Japanese Aesthetic UI Theme
 ### 「從代碼到美學的跨維度重塑 —— 一場關於輸入體驗的職人實驗」
 ### "A Cross-Dimensional Reconstruction from Code to Aesthetics — A Craftsman's Experiment in Input Experience"
@@ -45,13 +51,7 @@ As a technical craftsman, I am acutely aware of the sensitivity of input data:
 4. **部署 (Deploy)**：打開同文輸入法，點擊「部署（Deploy）」，等待幾秒鐘即可。
 
 ---
----
 
-## 📸 視覺預覽 / Preview
-
-![Preview](images/tongwen.webp)
-
----
 
 ## 🤝 致謝與交流 / Contact
 
