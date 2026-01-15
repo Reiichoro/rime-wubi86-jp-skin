@@ -1,0 +1,317 @@
+patch:
+  # 2. 強制鍵盤佈局 (Keyboard Layout)
+  "preset_keyboards/default/ascii_mode": 0
+  "preset_keyboards/default/author": "暖暖"
+  "preset_keyboards/default/keys":
+    - {click: q, key_back_color: bh1, key_text_color: th1, long_click: "1"}
+    - {click: w, key_back_color: bh1, key_text_color: th1, long_click: "2"}
+    - {click: e, key_back_color: bh1, key_text_color: th1, long_click: "3"}
+    - {click: r, key_back_color: bh1, key_text_color: th1, long_click: "4"}
+    - {click: t, key_back_color: bh1, key_text_color: th1, long_click: "5"}
+    - {click: y, key_back_color: bh1, key_text_color: th1, long_click: "6"}
+    - {click: u, key_back_color: bh1, key_text_color: th1, long_click: "7"}
+    - {click: i, key_back_color: bh1, key_text_color: th1, long_click: "8"}
+    - {click: o, key_back_color: bh1, key_text_color: th1, long_click: "9"}
+    - {click: p, key_back_color: bh1, key_text_color: th1, long_click: "0"}
+    - {key_back_color: bh2, key_text_color: th2, width: 5}
+    - {click: a, key_back_color: bh2, key_text_color: th2, long_click: select_all}
+    - {click: s, key_back_color: bh2, key_text_color: th2, long_click: "@"}
+    - {click: d, key_back_color: bh2, key_text_color: th2, long_click: "#"}
+    - {click: f, key_back_color: bh2, key_text_color: th2, long_click: "$"}
+    - {click: g, key_back_color: bh2, key_text_color: th2, long_click: "%", swipe_down: date_time}
+    - {click: h, key_back_color: bh2, key_text_color: th2, long_click: "!", swipe_down: "+"}
+    - {click: j, key_back_color: bh2, key_text_color: th2, long_click: "&", swipe_down: "-"}
+    - {click: k, key_back_color: bh2, key_text_color: th2, long_click: "*", swipe_down: "_"}
+    - {click: l, key_back_color: bh2, key_text_color: th2, long_click: "(){Left}", swipe_down: "="}
+    - {key_back_color: bh2, key_text_color: th2, width: 5}
+    - {click: Shift_L, composing: delimiter, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs, width: 15}
+    - {click: z, key_back_color: bh3, key_text_color: th3, long_click: "`", swipe_down: "[]{Left}"}
+    - {click: x, key_back_color: bh3, key_text_color: th3, long_click: cut, swipe_down: "{}{Left}"}
+    - {click: c, key_back_color: bh3, key_text_color: th3, long_click: copy, swipe_down: " "}
+    - {click: v, key_back_color: bh3, key_text_color: th3, long_click: paste_clip, swipe_down: paste}
+    - {click: b, key_back_color: bh3, key_text_color: th3, long_click: ";", swipe_down: "\\"}
+    - {click: n, key_back_color: bh3, key_text_color: th3, long_click: ":"}
+    - {click: m, key_back_color: bh3, key_text_color: th3, long_click: "?", swipe_down: "|"}
+    - {click: BackSpace, key_back_color: bbs, key_text_color: tbs, width: 15}
+    - {click: Keyboard_bqrw, key_back_color: bgn, key_text_color: tgn, long_click: Theme_settings, width: 12.5}
+    - {click: Keyboard_number, key_back_color: bgn, key_text_color: tgn, key_text_size: 18, long_click: Menu, swipe_down: Color_switch, swipe_up: Color_switch, width: 12.5}
+    - {click: "、", key_back_color: bh4, key_text_color: th4, label: "  、", long_click: "<>{Left}"}
+    - {click: space, key_back_color: bkg, key_text_color: tkg, long_click: Mode_switch, swipe_left: Left, swipe_right: Right, swipe_up: Schema_switchcn, width: 30}
+    - {click: ., key_back_color: bh4, key_text_color: th4, label: "  。", long_click: ","}
+    - {click: "/", key_back_color: bh4, key_text_color: th4, key_text_size: 18, long_click: Time}
+    - {click: Return, composing: Return1, key_back_color: benter, key_text_color: tenter, swipe_up: Escape, width: 15}
+  "preset_keyboards/default/name": "26键默认布局"
+  "preset_keyboards/default/width": 10
+
+  "preset_keyboards/qwerty/ascii_mode": 0
+  "preset_keyboards/qwerty/author": "osfans <waxaca@163.com>"
+  "preset_keyboards/qwerty/keys":
+    - {click: q, key_back_color: bh1, key_text_color: th1, long_click: "1"}
+    - {click: w, key_back_color: bh1, key_text_color: th1, long_click: "2"}
+    - {click: e, key_back_color: bh1, key_text_color: th1, long_click: "3"}
+    - {click: r, key_back_color: bh1, key_text_color: th1, long_click: "4"}
+    - {click: t, key_back_color: bh1, key_text_color: th1, long_click: "5"}
+    - {click: y, key_back_color: bh1, key_text_color: th1, long_click: "6"}
+    - {click: u, key_back_color: bh1, key_text_color: th1, long_click: "7"}
+    - {click: i, key_back_color: bh1, key_text_color: th1, long_click: "8"}
+    - {click: o, key_back_color: bh1, key_text_color: th1, long_click: "9"}
+    - {click: p, key_back_color: bh1, key_text_color: th1, long_click: "0"}
+    - {key_back_color: bh2, key_text_color: th2, width: 5}
+    - {click: a, key_back_color: bh2, key_text_color: th2, long_click: select_all}
+    - {click: s, key_back_color: bh2, key_text_color: th2, long_click: "@"}
+    - {click: d, key_back_color: bh2, key_text_color: th2, long_click: "#"}
+    - {click: f, key_back_color: bh2, key_text_color: th2, long_click: "$"}
+    - {click: g, key_back_color: bh2, key_text_color: th2, long_click: "%", swipe_down: date_time}
+    - {click: h, key_back_color: bh2, key_text_color: th2, long_click: "!", swipe_down: "+"}
+    - {click: j, key_back_color: bh2, key_text_color: th2, long_click: "&", swipe_down: "-"}
+    - {click: k, key_back_color: bh2, key_text_color: th2, long_click: "*", swipe_down: "_"}
+    - {click: l, key_back_color: bh2, key_text_color: th2, long_click: "(){Left}", swipe_down: "="}
+    - {key_back_color: bh2, key_text_color: th2, width: 5}
+    - {click: Shift_L, composing: delimiter, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs, width: 15}
+    - {click: z, key_back_color: bh3, key_text_color: th3, long_click: "`", swipe_down: "[]{Left}"}
+    - {click: x, key_back_color: bh3, key_text_color: th3, long_click: cut, swipe_down: "{}{Left}"}
+    - {click: c, key_back_color: bh3, key_text_color: th3, long_click: copy, swipe_down: " "}
+    - {click: v, key_back_color: bh3, key_text_color: th3, long_click: paste_clip, swipe_down: paste}
+    - {click: b, key_back_color: bh3, key_text_color: th3, long_click: ";", swipe_down: "\\"}
+    - {click: n, key_back_color: bh3, key_text_color: th3, long_click: ":"}
+    - {click: m, key_back_color: bh3, key_text_color: th3, long_click: "?", swipe_down: "|"}
+    - {click: BackSpace, key_back_color: bbs, key_text_color: tbs, width: 15}
+    - {click: Keyboard_bqrw, key_back_color: bgn, key_text_color: tgn, long_click: Theme_settings, width: 12.5}
+    - {click: Keyboard_number, key_back_color: bgn, key_text_color: tgn, key_text_size: 18, long_click: Menu, swipe_down: Color_switch, swipe_up: Color_switch, width: 12.5}
+    - {click: "、", key_back_color: bh4, key_text_color: th4, label: "  、", long_click: "<>{Left}"}
+    - {click: space, key_back_color: bkg, key_text_color: tkg, long_click: Mode_switch, swipe_left: Left, swipe_right: Right, swipe_up: Schema_switchcn, width: 30}
+    - {click: ., key_back_color: bh4, key_text_color: th4, label: "  。", long_click: ","}
+    - {click: "/", key_back_color: bh4, key_text_color: th4, key_text_size: 18, long_click: Time}
+    - {click: Return, composing: Return1, key_back_color: benter, key_text_color: tenter, swipe_up: Escape, width: 15}
+  "preset_keyboards/qwerty/name": "預設26鍵"
+  "preset_keyboards/qwerty/width": 10
+
+
+  "preset_keyboards/numberb/ascii_mode":  1
+  "preset_keyboards/numberb/author":  flypy.com
+  "preset_keyboards/numberb/height":  39.5
+  "preset_keyboards/numberb/keys": 
+      # 第一行：全選、光標快速移動、空格
+      - {click: select_all}
+      - {click: Left1}
+      - {click: Up}
+      - {click: Right1}
+      - {click: space1, key_back_color: gnb, key_text_color: gnt, width: 19}
+      
+      # 第二行：剪切、光標微調、切換數字
+      - {click: cut}
+      - {click: Left}
+      - {click: Shift_L2}
+      - {click: Right}
+      - {click: Keyboard_number, key_back_color: gnb, key_text_color: gnt, width: 19}
+      
+      # 第三行：複製、行首尾、刪除
+      - {click: copy}
+      - {click: Home}
+      - {click: Down}
+      - {click: End}
+      - {click: BackSpace, key_back_color: gnb, key_text_color: gnt, width: 19}
+      
+      # 第四行：粘貼、撤銷、Tab、重做、入力
+      - {click: paste}
+      - {click: undo}
+      - {click: Tab1}
+      - {click: redo}
+      - {click: Return, label: "入力", key_back_color: benter, key_text_color: tenter, width: 19}
+      
+      # 底部導航欄：確保全部跳轉回你的綠色主介面 (default)
+      - {click: Keyboard_default, height: 26.5, key_back_color: benter, key_text_color: tenter, key_text_size: 14, width: 17}
+      - {click: Keyboard_bqsy1, label: "日語", key_back_color: bgn, key_text_color: tgn, key_text_size: 14, width: 16.5}
+      - {click: Keyboard_bqsy2, label: "En", key_back_color: bgn, key_text_color: tgn, key_text_size: 14, width: 16.5}
+      - {click: Keyboard_bqsy3, label: "絵文字", key_back_color: bgn, key_text_color: tgn, key_text_size: 14, width: 16.5}
+      - {click: Keyboard_bqsy4, label: "顔文字", key_back_color: bgn, key_text_color: tgn, key_text_size: 14, width: 16.5}
+      - {click: Keyboard_last, key_back_color: benter, key_text_color: tenter, key_text_size: 14, width: 17}
+  "preset_keyboards/numberb/name":  编辑键盘
+  "preset_keyboards/numberb/width": 20.25
+  
+
+    # 1. 強制按鍵日文標籤 (Preset Keys)
+  "preset_keys/select_all/label": "全選択"
+  "preset_keys/copy/label": "コピー"
+  "preset_keys/cut/label": "切り取り"
+  "preset_keys/paste/label": "貼付"
+  "preset_keys/undo/label": "元に戻す"
+  "preset_keys/redo/label": "やり直し"
+  "preset_keys/liquid_keyboard_clipboard/label": "履歴"
+  "preset_keys/Insert/label": "挿入"
+  "preset_keys/CommitComment/label": "符号化"
+  "preset_keys/CommitRawInput/label": "未変換"
+  "preset_keys/CommitScriptText/label": "入力値"
+  "preset_keys/Control_L/label": "制御"
+  "preset_keys/Date/label": "日付"
+  "preset_keys/Delete/label": "削除"
+  "preset_keys/DeleteCandidate/label": "単語消"
+  "preset_keys/BackSpace/label": "削除"    # Sakujo (退格 -> 削除)
+  "preset_keys/Return/label": "入力"       # Nyuryoku (回車 -> 入力)
+  # 修正輸入中狀態下的回車鍵
+  "preset_keys/Return1/label": "入力"
+  "preset_keys/Return1/key_back_color": benter # 確保顏色也是綠色
+  #"preset_keys/Mode_switch/states": ["スペース", "space"]
+  "preset_keys/Mode_switch": {functional: false, send: Mode_switch, states: ["日本語", "English"],toggle: ascii_mode}
+  # 補上這幾個功能鍵的定義，否則它們會「出字」
+  "preset_keys/paste_clip/command": "clipboard"
+  "preset_keys/paste_clip/send": "function"
+  "preset_keys/paste_clip/label": "貼付"
+  # 將數字切換鍵標籤統一改為 123
+  "preset_keys/Keyboard_number/label": "🔢"
+  "preset_keys/Keyboard_number/select": "number"
+  "preset_keys/Keyboard_number/send": "Eisu_toggle"
+
+  "preset_keys/Keyboard_numberb/label": "🔢"
+  "preset_keys/Keyboard_numberb/select": "numberb"
+  "preset_keys/Keyboard_numberb/send": "Eisu_toggle"
+
+  #"preset_keys/Keyboard_bqrw/push": "bqrw"  # 確保你有一個叫 bqrw 的鍵盤
+  #"preset_keys/Keyboard_bqrw/label": "主"   # 或是任何你想顯示的標籤
+  #"preset_keys/Keyboard_bqrw/push": "default"  # 這裡寫你想要跳轉回的主鍵盤名字（比如 default）
+  "preset_keys/Keyboard_bqrw": {functional: false, label: "🌐", select: symbols, send: "Eisu_toggle"}
+  "preset_keys/Menu/label": "切替" 
+
+  # 讓所有返回動作都強行回到你 Patch 過的「預設」主鍵盤
+  #"preset_keys/Keyboard_default/click": "default"
+  #"preset_keys/Keyboard_default/push": "default"
+  # --- 修正：補上缺失的返回主盤定義 ---
+  "preset_keys/Keyboard_default": {functional: false, label: "戻る", select: ".default", send: Eisu_toggle}
+
+  # 修正那個 ⌘ 鍵，讓它單點時回到預設鍵盤
+  #"preset_keys/Keyboard_bqfh/click": "default"
+  
+  # 如果你的數字鍵盤返回鍵是用 Keyboard_number 定義的
+  "preset_keys/Keyboard_number/click": "default"
+  # 強制切換行為回到你定義的 default 鍵盤
+  #"preset_keys/Schema_switch/click": default
+  #"preset_keys/Schema_switchcn/click": default
+  "preset_keys/Schema_switch": {functional: false, label: "次案", send: "Control+Shift+1"}
+  "preset_keys/Schema_switchcn": {functional: false, label: "スペース", send: "Control+Shift+6"}
+  "preset_keys/Schema_switchen": {functional: false, label: "EN", send: "Control+Shift+5"}
+  "preset_keys/Schema_switchen1": {functional: true, label: "EN", send: "Control+Shift+5"}
+
+
+  # 三個點按扭
+  "preset_keys/menu_keyboard/command": menu_keyboard
+  "preset_keys/menu_keyboard/label": "AAA"
+  "preset_keys/menu_keyboard/send": function
+
+  # 定義 delimiter 到底是什麼
+  "preset_keys/delimiter/label": "分かち"
+  "preset_keys/delimiter/text": "'"
+  "preset_keys/delimiter/send": "'"
+  # --- 日語化功能鍵位定義 ---
+  "preset_keys/Left1": {functional: false, label: "⇦", repeatable: true, send: "Control+Left"}
+  "preset_keys/Right1": {functional: false, label: "⇨", repeatable: true, send: "Control+Right"}
+  "preset_keys/Shift_L2": {functional: false, label: "選択", preview: "⇪", send: Shift_L}
+  "preset_keys/Tab": {label: "字詞", send: Tab}
+  "preset_keys/Tab1": {functional: false, label: "タブ", send: Tab}
+  # --- 修正後的導航鍵位定義 (嚴格對應你提供的邏輯) ---
+  "preset_keys/Keyboard_last": {functional: false, label: "前へ", select: ".last", send: Eisu_toggle}
+  "preset_keys/Keyboard_last_lock": {label: "戻る", select: ".last_lock", send: Eisu_toggle}
+  
+  "preset_keys/Keyboard_bqsy1": {functional: false, key_text_size: 14, label: "日文", select: bqfh1, send: "Eisu_toggle"}
+  "preset_keys/Keyboard_bqsy2": {functional: false, key_text_size: 14, label: "英文", select: bqfh3, send: "Eisu_toggle"}
+  "preset_keys/Keyboard_bqsy3": {functional: false, key_text_size: 14, label: "絵文字", select: bqrw1, send: "Eisu_toggle"}
+  "preset_keys/Keyboard_bqsy4": {functional: false, key_text_size: 14, label: "顔文字", select: kao_happy, send: "Eisu_toggle"}
+  # --- 1. 配色與主題 (配色・テーマ) ---
+  "preset_keys/Theme_settings": {label: "テーマ", option: theme, send: SETTINGS}
+  "preset_keys/Color_switch": {label: "カラー", send: PROG_RED}
+
+  # --- 2. 返回與更多 (戻る・詳細) ---
+  "preset_keys/liquid_keyboard_exit": {label: "戻る", command: liquid_keyboard, option: "-1", send: function}
+  "preset_keys/liquid_keyboard_switch": {label: "詳細", command: liquid_keyboard, option: "更多", send: function}
+
+  # --- 3. 左手/右手模式切換 (左手・右手モード) ---
+  "preset_keys/one_hand_switch_1": {send: Mode_switch, states: ["左手", "標準"], toggle: _one_hand_mode_1}
+  "preset_keys/one_hand_switch_2": {send: Mode_switch, states: ["右手", "標準"], toggle: _one_hand_mode_2}
+  "preset_keys/one_hand_switch_3": {send: Mode_switch, states: ["左手", "右手"], toggle: _one_hand_mode_3}
+  # --- 迷你鍵盤定義 (迷你/ミニ) ---
+  "preset_keys/Keyboard_mini": {label: "ミニ", select: "mini", send: Eisu_toggle}
+  "preset_keys/space": {functional: false, label: "スペース", preview: " ",repeatable: false, send: space}
+  "preset_keys/space1": {functional: false, label: "空白", repeatable: false, send: space}
+  "preset_keys/space_R": {functional: false, label: "風二十二键", select: letter, send: Eisu_toggle}
+  "preset_keys/space_R1": {functional: false, label: "EN", select: letter, send: Eisu_toggle}
+  "preset_keys/space_R2": {functional: false, label: "かな", select: fbj, send: Eisu_toggle}
+  "preset_keys/Time": {command: date, label: "時間", option: "HH:mm:ss"}
+
+  "preset_color_schemes/default": {author: "风花絮", name: "标准配色！", back_color: 0xffffffff, baoe: 0xffffffff, bbs: 0xffacb2c2, benter: 0xff3266a0, bgn: 0xffacb2c2, bh1: 0xffffffff, bh2: 0xffffffff, bh3: 0xffffffff, bh4: 0xffffffff, bkg: 0xffffffff, candidate_separator_color: 0xffffffff, candidate_text_color: 0xff000000, comment_text_color: 0xffe1e3e7, dark_scheme: steam, hilited_back_color: 0xffffffff, hilited_candidate_back_color: 0xffffffff, hilited_candidate_text_color: 0xff3266a0, hilited_comment_text_color: 0xff000000, hilited_key_back_color: 0xff3266a0, hilited_key_symbol_color: 0xffffffff, hilited_key_text_color: 0xff000000, hilited_off_key_back_color: 0xffffffff, hilited_off_key_text_color: 0xff000000, hilited_text_color: 0xff000000, key_back_color: 0xffffffff, key_symbol_color: 0xff838383, key_text_color: 0xff000000, keyboard_back_color: 0xffe1e3e7, label_color: 0xff3266a0, off_key_back_color: 0xffacb2c2, off_key_text_color: 0xff838383, preview_back_color: 0xffacb2c2, preview_text_color: 0xff3266a0, taoe: 0xff3266a0, tbs: 0xffffffff, tenter: 0xffffffff, text_back_color: 0xffffffff, text_color: 0xff3266a0, tgn: 0xffffffff, th1: 0xff000000, th2: 0xff000000, th3: 0xff000000, th4: 0xff000000, tkg: 0xff000000}
+  # 基礎樣式鎖定
+  "style/auto_caps": false
+  "style/horizontal": true
+  "style/round_corner": 12
+  "style/shadow_radius": 0.0
+  "style/reset_ascii_mode": false
+  
+  # 候選欄與字體 (han.ttf / latin.ttf)
+  "style/candidate_font": "han.ttf"
+  "style/latin_font": "latin.ttf"
+  "style/text_font": "latin.ttf"
+  "style/candidate_text_size": 18
+  "style/candidate_padding": 5
+  "style/candidate_spacing": 0.5
+  "style/candidate_view_height": 28
+  "style/candidate_use_cursor": true
+  
+  # 註釋與預覽 (comment.ttf / preview)
+  "style/comment_font": "comment.ttf"
+  "style/comment_text_size": 12
+  "style/comment_height": 14
+  "style/comment_on_top": true
+  "style/preview_font": "latin.ttf"
+  "style/preview_text_size": 40
+  "style/preview_height": 56
+  "style/preview_offset": "-32"
+  
+  # 按鍵與標籤 (symbol.ttf / label.ttf)
+  "style/key_font": "symbol.ttf"
+  "style/symbol_font": "symbol.ttf"
+  "style/label_font": "label.ttf"
+  "style/key_text_size": 24
+  "style/key_long_text_size": 16
+  "style/label_text_size": 22
+  "style/symbol_text_size": 10
+  
+  # 鍵盤佈局尺寸與校正
+  "style/keyboard_height": 250
+  "style/keyboard_height_land": 200
+  "style/key_height": 48
+  "style/key_width": 10.0
+  "style/horizontal_gap": 4
+  "style/vertical_gap": 8
+  "style/proximity_correction": true
+  "style/vertical_correction": "-5"
+  
+  # Enter 標籤模式
+  "style/enter_label_mode": 0
+  "style/enter_labels": {default: 入力, done: "完了", go: "開く", next: "次へ", pre: "前へ", search: "検索", send: "送信"}
+
+  # 2. 封裝工具欄 (Toolbar)
+  # --- ASCII 模式按鈕 ---
+  # "tool_bar/ascii_mode_button/action": Mode_switch
+  # "tool_bar/ascii_mode_button/foreground": {font_size: 18, option_styles: ["日", En], padding: 10}
+  
+  # --- 字體與間距 ---
+  "tool_bar/button_font": iconfont.ttf
+  "tool_bar/button_spacing": 5
+  "tool_bar/buttons":
+    - {action: Hide, foreground: {fg_normal: candidate_text_color, style: "ic@keyboard_close"}}
+    - {action: liquid_keyboard_emoji, foreground: {style: "ic@emoticon"}}
+    - {action: liquid_keyboard_clipboard, foreground: {style: "ic@clipboard"}}
+    - {action: Keyboard_numberb, foreground: {style: "ic@cursor_text"}}
+    - {action: Mode_switch, foreground: {font_size: 18, option_styles: ["日", En], padding: 10}}
+    - {action: Zenkaku_Hankaku, foreground: {option_styles: ["ic@moon_full", "ic@moon_new"]}}
+  # --- 其他獨立屬性路徑 ---
+  "tool_bar/ascii_mode_button": {action: Mode_switch, foreground: {font_size: 18, option_styles: ["日", En], padding: 10}}
+  "tool_bar/button_font": iconfont.ttf
+  "tool_bar/button_spacing": 5
+  "tool_bar/clipboard_button": {action: liquid_keyboard_clipboard, foreground: {style: "ic@clipboard"}}
+  "tool_bar/edit_button": {action: Keyboard_numberb, foreground: {style: "ic@cursor_text"}}
+  "tool_bar/emoji_button": {action: liquid_keyboard_emoji, foreground: {style: "ic@emoticon"}}
+  "tool_bar/full_shape_button": {action: Zenkaku_Hankaku, foreground: {option_styles: ["ic@moon_full", "ic@moon_new"]}}
+  "tool_bar/hide_button": {action: Hide, foreground: {fg_normal: candidate_text_color, style: "ic@keyboard_close"}}
+  "tool_bar/primary_button/action": menu_keyboard
+  "tool_bar/primary_button/background": {bg_highlight: hilited_candidate_button_color, bg_normal: 0x00, corner_radius: 10, horizontal_inset: 0, type: circle, vertical_inset: 4}
+  "tool_bar/primary_button/foreground": {fg_normal: candidate_text_color, padding: 10, style: "ic@dots_horizontal"}
+
